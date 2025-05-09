@@ -1,20 +1,32 @@
 /* ADD YOUR CUSTOM CSS TO THIS FILE BELOW */
 
 body{background-color: #262421;
-	color:white;}
+	color:white;
+  font-family: lexend deca;}
 
 h1{color:#dbaf6e;
-	text-align: center;}
+	text-align: center;
+  font-family: libre baskerville;
+  margin-top: 20px}
+h2{text-align: center;
+  color:grey;
+  font-size: 20px;
+  margin-bottom: 20px;
+  }
+h3{font-family: libre baskerville;
+  text-align: center;
+  margin: 20px;
+  color:#dbaf6e;}
 
-#navbar {background-color:#262421; }
+.navbar {background-color:#1c1b18 !important;}
 
+.navbar-brand,.nav-link,.active,.navbar-toggler-icon{color:white !important;
+font-family: lexend deca;}
 
-
-
-
-
-
-
+.card-group{margin:15px;}
+.card{background-color:#1c1b18;}
+.card-title{color:#dbaf6e}
+.card-text{color:#4f4b45}
 
 /* CONTACT CSS */
 * {
@@ -46,7 +58,6 @@ input[type=submit]:hover {
 /* Style the container/contact section */
 .container {
   border-radius: 5px;
-  background-color: #f2f2f2;
   padding: 10px;
 }
 
@@ -70,6 +81,4 @@ input[type=submit]:hover {
   .column, input[type=submit] {
     width: 100%;
     margin-top: 0;
-  }
-
- /* CONTACT CSS */
+  }/* CONTACT CSS */
